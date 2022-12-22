@@ -7,11 +7,11 @@ namespace Lessons
 {
     public class RotateObject : MonoBehaviour
     {
-        [SerializeField]private float _speed = 1;
-
+        // [SerializeField] private float _speed = 1;
+        [SerializeField] private RotateSettings _rotateSettings;
         private void Update()
         {
-            transform.Rotate(Vector3.up, _speed * Time.deltaTime);
+            transform.Rotate(Vector3.up, _rotateSettings.Speed * Time.deltaTime);
             //100 frame per second 100* 0.1; ///////////////////// 50 frame per second 50* .2 = 10
         }
     }

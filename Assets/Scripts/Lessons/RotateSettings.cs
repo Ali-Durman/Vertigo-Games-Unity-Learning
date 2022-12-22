@@ -7,6 +7,6 @@ namespace Lessons
     public class RotateSettings : ScriptableObject
     {
         [SerializeField] private float _speed = 1;
-
+        public float Speed { get { return _speed; } }
     }
 }

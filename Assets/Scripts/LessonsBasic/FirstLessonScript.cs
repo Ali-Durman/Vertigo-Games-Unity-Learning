@@ -20,9 +20,13 @@ namespace LessonsBasic
      bool yanlis = false;
      [SerializeField]private Vector3 ucFloat = new Vector3(1, 2, 3);
 
+     // first lesson property
+     public float FloatProperty { get; private set; }
+
      void Start()
      {
-        
+            ondalikliSayi = 10000;
+            FloatProperty = 1000000000f;
      }
 
      // Update is called once per frame

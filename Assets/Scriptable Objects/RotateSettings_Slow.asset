@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a02e90a46038d14478e6383b4db47867, type: 3}
-  m_Name: RotateSettings_Fast
+  m_Name: RotateSettings_Slow
   m_EditorClassIdentifier: 
-  _speed: 100
+  _speed: 25
